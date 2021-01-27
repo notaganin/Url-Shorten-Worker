@@ -50,7 +50,7 @@ async function handleRequest(request) {
   console.log(path)
   if(!path){
 
-    const html= await fetch("https://xytom.github.io/Url-Shorten-Worker/")
+    const html= await fetch("https://notaganin.github.io/Url-Shorten-Worker/")
     
     return new Response(await html.text(), {
     headers: {
